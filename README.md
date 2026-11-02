@@ -6,19 +6,20 @@ A secure, offline-first command-line tool that converts raw 8-sided dice (`d8`) 
 
 ## Hardware & Preparation Requirements
 
-* **8-sided dice (d8):** You will need **5 to 8 d8 dice** to make rolling efficient (though a single d8 rolled repeatedly will also work).
+* **8-sided dice (d8):** You will need **5 to 10 d8 dice** to make rolling efficient (though a single d8 rolled repeatedly will also work).
   * For a **12-word seed**, you need **43 rolls** total.
   * For a **24-word seed**, you need **86 rolls** total.
 * **Official BIP39 Wordlist (`english.txt`):** You must provide the official 2,048-word lexicon in the root project directory.
 
 ### Downloading & Verifying the Wordlist
-1. **Download:** Grab the raw official file from the Bitcoin BIP39 GitHub repository:
+1. Use the file provided in this repository.
+2. **Download:** Grab the raw official file from the Bitcoin BIP39 GitHub repository:
    * [Download english.txt](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/english.txt)
    * *Via terminal (while online):*
      ```bash
      curl -O [https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/english.txt](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/english.txt)
      ```
-2. **Verify Line Count:** The file must contain exactly 2,048 lines (one word per line). Run this command to verify:
+3. **Verify Line Count:** The file must contain exactly 2,048 lines (one word per line). Run this command to verify:
    ```bash
    wc -l english.txt
    ```
