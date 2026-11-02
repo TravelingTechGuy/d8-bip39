@@ -90,5 +90,6 @@ d8-seed-generator/
 ├── english.txt        # Official BIP39 wordlist (2048 words)
 ├── requirements.txt   # Python dependencies
 ├── .gitignore         # Git exclusion rules
-└── README.md          # Documentation
+├── README.md          # Documentation
+└── LICENSE            # UnLicense
 ```
