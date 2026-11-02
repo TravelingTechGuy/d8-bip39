@@ -1,0 +1,7 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+
+# Sensitive Wallet Backups & Outputs
+*.json
+*.key
